@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Note Taker</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- ICON SCOUT CDN -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+  </head>
+  <body>
+    <!-- Add notes title and description -->
+    <div class="add-note">
+      <header>
+        <button class="back-btn"><i class="uil uil-angle-left-b"></i></button>
+        <button class="save-note">Save</button>
+      </header>
+      <form>
+        <input type="text" name="" id="title" placeholder="Title" />
+        <textarea placeholder="Type something...." id="description"></textarea>
+      </form>
+    </div>
+    <!-- Ends here -->
+
+    <!-- Add lists of note -->
+    <div class="container">
+      <nav>
+        <h1>Nota.</h1>
+        <button class="search-btn"><i class="uil uil-search"></i></button>
+      </nav>
+      <main class="notes"></main>
+    </div>
+
+    <div class="addNoteBtn">
+      <button class="add-note-btn">
+        <i class="uil uil-plus"></i>
+      </button>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
